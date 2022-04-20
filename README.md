@@ -1,6 +1,6 @@
 # Mirror-vs-Fishnet
  Comparing performance between Mirror and Fishnet networking libraries.
- I added custom scripting symbol called BUILD_SERVER because I built client and server using headless build option
+ I added custom scripting symbol called SERVER_BUILD because I built client and server using headless build option
  and NetworkManager was starting server if I didn't do that.
 ```
 Mirror(v66.0.9) + 200 clients => Performance lost was about %85
